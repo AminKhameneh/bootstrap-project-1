@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: myfont, serif;
+}
+
+body {
+    direction: rtl;
+}
+
+:root {
+    --basecolor: #ffc000;
+    --hoverbase: #ffb000;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(../font/iranyekanwebregular.woff2);
+}
+
+#container {
+    width: 95%;
+    margin: 0 auto;
+}

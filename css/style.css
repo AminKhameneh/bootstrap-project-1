@@ -1,0 +1,52 @@
+@import url(base.css);
+
+#bi-nav {
+    color: var(--basecolor) !important;
+}
+
+#btn-go-top {
+    margin-top: 170px !important;
+    margin-right: -15px !important;
+}
+
+#img-main {
+    height: 650px !important;
+    background-image: url("../image/38453420-01.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btn-login {
+    background-color: var(--basecolor) !important;
+}
+
+#btn-login:hover {
+    background-color: var(--hoverbase) !important;
+
+}
+
+#btn-register {
+    background-color: white;
+}
+
+#btn-register:hover {
+    background-color: #ffdd;
+}
+
+#website {
+    height: 125px;
+}
+
+#w-footer {
+    transition: 0.4s all ease;
+}
+
+#w-footer:hover {
+    color: green !important;
+    transition: 0.4s all ease;
+}
+
+#dabram-gp:hover {
+    text-decoration: underline !important;
+}

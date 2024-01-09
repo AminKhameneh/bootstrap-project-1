@@ -1,0 +1,41 @@
+@import url(base.css);
+
+#bi-nav {
+    color: var(--basecolor) !important;
+}
+
+#box-service {
+    transition: 0.3s all ease;
+}
+
+#box-service:hover {
+    transition: 0.3s all ease;
+    box-shadow: 0 0 15px lightskyblue !important;
+    transform: translateY(-10px);
+}
+
+#box-service img {
+    transition: 0.3s all ease;
+}
+
+#box-service:hover img {
+    transition: 0.3s all ease;
+    box-shadow: 3px 5px 10px gray !important;
+}
+
+#website {
+    height: 125px;
+}
+
+#w-footer {
+    transition: 0.4s all ease;
+}
+
+#w-footer:hover {
+    color: green !important;
+    transition: 0.4s all ease;
+}
+
+#dabram-gp:hover {
+    text-decoration: underline !important;
+}

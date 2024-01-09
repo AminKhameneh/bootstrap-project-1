@@ -1,0 +1,34 @@
+@import url(base.css);
+
+#bi-nav {
+    color: var(--basecolor) !important;
+}
+
+@media only screen and (max-width: 992px) {
+    #accordion-w-text {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #accordion-w-text {
+        width: 75%;
+    }
+}
+
+#website {
+    height: 125px;
+}
+
+#w-footer {
+    transition: 0.4s all ease;
+}
+
+#w-footer:hover {
+    color: green !important;
+    transition: 0.4s all ease;
+}
+
+#dabram-gp:hover {
+    text-decoration: underline !important;
+}
